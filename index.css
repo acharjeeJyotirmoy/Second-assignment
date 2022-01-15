@@ -87,12 +87,16 @@ hr{
     flex-wrap: wrap;
     justify-content: center;
 }
-.products{
-    margin-left:20px;
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    
+  
+@media (min-width:1000px) {
+    .products{
+        margin-left:20px;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        
+    }
 }
+
 @media (min-width:600px) {
     .products{
         margin-left:20px;
